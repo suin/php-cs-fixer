@@ -3,9 +3,12 @@ set -e
 
 isCommand() {
   for cmd in \
-    "analyse" \
-    "help" \
+    "describe" \
+    "fix" \
+    "help"
     "list"
+    "readme"
+    "self-update"
   do
     if [ -z "${cmd#"$1"}" ]; then
       return 0
