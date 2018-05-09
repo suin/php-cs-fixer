@@ -8,7 +8,7 @@ isCommand() {
     "help" \
     "list" \
     "readme" \
-    "self-update" \
+    "self-update"
   do
     if [ -z "${cmd#"$1"}" ]; then
       return 0
