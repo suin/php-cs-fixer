@@ -4,7 +4,7 @@ ARG COMPOSER_IMAGE="composer:1.6.4"
 ARG BASE_IMAGE="php:7.2-alpine"
 ARG PACKAGIST_NAME="friendsofphp/php-cs-fixer"
 ARG PHPQA_NAME="php-cs-fixer"
-ARG VERSION="2.12.0"
+ARG VERSION="2.12.1"
 
 # Download with Composer - https://getcomposer.org/
 
